@@ -1,0 +1,10 @@
+--- 
+- name: 写入文件到服务器
+  hosts: aliyun
+  remote_user: root
+  tasks:
+  - name: 写文件
+    write:
+      path: /root/hello.txt
+      content: Hello World
+    sudo: yes

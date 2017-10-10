@@ -1,0 +1,8 @@
+---
+- name: loop
+  hosts: localhost
+  remote_user: jukay
+  tasks:
+  - name: 
+    shell: echo Hello {{item}}
+    with_items: [licong,caobo,xuecong]

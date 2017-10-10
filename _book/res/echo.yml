@@ -1,0 +1,7 @@
+---
+- name:
+  hosts: aliyun
+  remote_user: aliyun
+  tasks:
+  - name:
+    shell: echo "Hello World"

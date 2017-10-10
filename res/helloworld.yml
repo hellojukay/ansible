@@ -1,0 +1,9 @@
+---
+- name:
+  hosts: aliyun
+  remote_user: root
+  tasks:
+  - name: Hello World版本的playbook
+    hello:
+      name: "{{ item }}"
+    with_items: ["licong",caobo]
