@@ -1,7 +1,7 @@
 ---
 - name:
-  hosts: aliyun
-  remote_user: root
+  hosts: huanggai
+  remote_user: deploy
   tasks:
   - name: Hello World版本的playbook
     hello:

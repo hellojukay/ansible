@@ -71,7 +71,7 @@ Ansible的返回值是一个json，他一般可能包括以下几个部分。
 |字段|类型|说明|
 |---|---|---|
 |backup_file|string|对于一些modules使用了backup变量，返回备份的文件路径|
-|changed|bool|表示任务是否必须进行更改|
+|changed|bool|表示任务是否对服务器进行了修改|
 |failed|bool|表示任务是否失败|
 |invocation|map|调用模块的方法|
 |msg|string|返回的消息|

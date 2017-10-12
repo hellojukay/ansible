@@ -5,4 +5,4 @@
   tasks:
   - name: 
     shell: echo Hello {{item}}
-    with_items: [licong,caobo,xuecong]
+    with_items: "{{names}}"

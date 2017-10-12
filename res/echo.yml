@@ -4,4 +4,7 @@
   remote_user: aliyun
   tasks:
   - name:
+    shell: echo11 "Hello World"
+    ignore_errors: yes
+  - name:
     shell: echo "Hello World"
