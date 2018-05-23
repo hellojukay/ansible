@@ -12,3 +12,4 @@
   * [参数](./doc/modeul.md#canshu)
   * [返回值](./doc/modeul.md#fanhuizhi)
   * [使用自定义模块](./doc/modeul.md#shiyon)
+* [Ansible配置](./doc/config.md)
